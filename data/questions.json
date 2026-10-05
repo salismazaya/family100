@@ -1,0 +1,210 @@
+[
+  {
+    "id": "q1",
+    "question": "Alasan siswa izin keluar saat jam pelajaran berlangsung?",
+    "answers": [
+      {
+        "answer": "Ke Toilet / Buang Air",
+        "score": 41
+      },
+      {
+        "answer": "Beli Jajan di Kantin",
+        "score": 25
+      },
+      {
+        "answer": "Dipanggil Guru / Ruang BK",
+        "score": 16
+      },
+      {
+        "answer": "Sakit ke UKS",
+        "score": 12
+      },
+      {
+        "answer": "Ambil Barang Ketinggalan",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "question": "Benda yang sering dipinjam tapi jarang kembali di kelas?",
+    "answers": [
+      {
+        "answer": "Pulpen / Tipe-X",
+        "score": 45
+      },
+      {
+        "answer": "Penghapus",
+        "score": 24
+      },
+      {
+        "answer": "Penggaris",
+        "score": 15
+      },
+      {
+        "answer": "Pensil",
+        "score": 10
+      },
+      {
+        "answer": "Buku Catatan / PR",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "question": "Hal yang paling bikin panik siswa di sekolah?",
+    "answers": [
+      {
+        "answer": "Ulangan Harian Mendadak",
+        "score": 39
+      },
+      {
+        "answer": "Lupa Bikin / Bawa PR",
+        "score": 28
+      },
+      {
+        "answer": "Razia HP / Rambut / Atribut",
+        "score": 18
+      },
+      {
+        "answer": "Ketahuan Nyontek",
+        "score": 10
+      },
+      {
+        "answer": "Dipanggil Ruang BK",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "question": "Kegiatan favorit siswa saat guru jam kosong (jamkos)?",
+    "answers": [
+      {
+        "answer": "Tidur / Rebahan di Meja",
+        "score": 36
+      },
+      {
+        "answer": "Main Game di HP / Mabar",
+        "score": 26
+      },
+      {
+        "answer": "Nongkrong di Kantin",
+        "score": 19
+      },
+      {
+        "answer": "Gosip / Ngobrol Santai",
+        "score": 12
+      },
+      {
+        "answer": "Main Gitar / Nyanyi Bareng",
+        "score": 7
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "Jajanan kantin sekolah yang paling laris diserbu siswa?",
+    "answers": [
+      {
+        "answer": "Gorengan / Bakwan",
+        "score": 35
+      },
+      {
+        "answer": "Mie Instan / Pop Mie",
+        "score": 26
+      },
+      {
+        "answer": "Es Teh Manis",
+        "score": 18
+      },
+      {
+        "answer": "Batagor / Siomay",
+        "score": 14
+      },
+      {
+        "answer": "Cilok / Cilung",
+        "score": 7
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "question": "Alasan klasik siswa saat terlambat datang ke sekolah?",
+    "answers": [
+      {
+        "answer": "Bangun Kesiangan",
+        "score": 42
+      },
+      {
+        "answer": "Macet di Jalan",
+        "score": 28
+      },
+      {
+        "answer": "Ban Motor Bocor / Mogok",
+        "score": 16
+      },
+      {
+        "answer": "Hujan Deras",
+        "score": 9
+      },
+      {
+        "answer": "Nungguin Teman Jemput",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "question": "Tipe-tipe guru yang paling diingat oleh murid?",
+    "answers": [
+      {
+        "answer": "Guru Killer / Galak",
+        "score": 38
+      },
+      {
+        "answer": "Guru Humoris / Asik",
+        "score": 30
+      },
+      {
+        "answer": "Guru Suka Ngasih Tugas Banyak",
+        "score": 17
+      },
+      {
+        "answer": "Guru Cantik / Ganteng",
+        "score": 10
+      },
+      {
+        "answer": "Guru Sering Jamkos",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "question": "Apa yang dilakukan siswa waktu pura-pura mendengarkan guru?",
+    "answers": [
+      {
+        "answer": "Menggambar / Coret-coret Buku",
+        "score": 37
+      },
+      {
+        "answer": "Ngemil Sembunyi-sembunyi",
+        "score": 25
+      },
+      {
+        "answer": "Main HP di Bawah Meja",
+        "score": 21
+      },
+      {
+        "answer": "Tidur Melek / Melamun",
+        "score": 12
+      },
+      {
+        "answer": "Ngobrol Bisik-bisik",
+        "score": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0f1d">
+  <title>Family 100 - Remote Host</title>
+  <link rel="stylesheet" href="/css/remote.css">
+</head>
+<body>
+  <div class="remote-wrapper">
+    <!-- Header -->
+    <header class="remote-header">
+      <div>
+        <div class="header-title">
+          <span>🕹️</span> REMOTE KONTROL HOST
+        </div>
+        <div class="header-status" id="hostStatus">Menghubungkan...</div>
+      </div>
+      <button id="btnResetRound" class="btn-header-round" title="Bersihkan kartu & strike ronde ini">
+        Reset Ronde
+      </button>
+    </header>
+
+    <!-- Question Selector Section -->
+    <section class="panel-section">
+      <div class="section-head">
+        <span class="section-title">PERTANYAAN AKTIF</span>
+        <span style="font-size: 11px; color: var(--text-dim);" id="qIndexLabel">1/8</span>
+      </div>
+      <div class="question-nav-row">
+        <button id="btnPrevQ" class="btn-nav-q" title="Soal Sebelumnya">◀</button>
+        <select id="questionSelect" class="question-select">
+          <option value="">Memuat soal...</option>
+        </select>
+        <button id="btnNextQ" class="btn-nav-q" title="Soal Selanjutnya">▶</button>
+      </div>
+    </section>
+
+    <!-- Host Answers Peek & Reveal -->
+    <section class="panel-section">
+      <div class="section-head">
+        <span class="section-title">KUNCI JAWABAN (HOST PEEK)</span>
+        <span style="font-size: 11px; color: var(--text-dim);" id="revealedCount">0 Terbuka</span>
+      </div>
+      <div class="answers-peek-list" id="answersPeekList">
+        <div style="color: #64748b; font-size: 13px; text-align: center; padding: 20px;">
+          Pilih pertanyaan di atas untuk melihat kunci jawaban
+        </div>
+      </div>
+    </section>
+
+    <!-- Strike Control (TETOT) -->
+    <section class="panel-section">
+      <span class="section-title">KONTROL KESALAHAN (STRIKE)</span>
+      <div class="strike-actions-grid">
+        <button id="btnTetot" class="btn-large-tetot">
+          <span>❌</span> TETOT (STRIKE)
+        </button>
+        <button id="btnResetStrike" class="btn-reset-strike">
+          RESET STRIKE
+        </button>
+      </div>
+    </section>
+
+    <!-- Score Awarding -->
+    <section class="panel-section">
+      <div class="section-head">
+        <span class="section-title">TRANSFER POIN KE TIM</span>
+        <span style="font-size: 12px; font-weight: 800; color: #fff;" id="roundPointsBadge">0 Poin</span>
+      </div>
+      <div class="team-award-grid">
+        <button id="btnAwardA" class="btn-award team-a">
+          <span>🏆</span> + KE TIM A
+        </button>
+        <button id="btnAwardB" class="btn-award team-b">
+          <span>🏆</span> + KE TIM B
+        </button>
+      </div>
+    </section>
+
+    <!-- Quick Add Question Form -->
+    <section class="panel-section">
+      <details style="width: 100%;">
+        <summary style="font-size: 12px; font-weight: 700; color: var(--warning); cursor: pointer; padding: 4px 0;">
+          ➕ Tambah Soal Baru Sendiri
+        </summary>
+        <form id="newQuestionForm" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+          <input type="text" id="newQText" class="form-input" placeholder="Tulis pertanyaan survei..." required>
+          <div style="font-size: 11px; color: var(--text-dim);">Daftar Jawaban (Format: Jawaban, Skor):</div>
+          <input type="text" id="newAns1" class="form-input" placeholder="Jawaban 1, Skor (misal: Main HP, 40)" required>
+          <input type="text" id="newAns2" class="form-input" placeholder="Jawaban 2, Skor (misal: Tidur, 30)" required>
+          <input type="text" id="newAns3" class="form-input" placeholder="Jawaban 3, Skor (opsional)">
+          <input type="text" id="newAns4" class="form-input" placeholder="Jawaban 4, Skor (opsional)">
+          <input type="text" id="newAns5" class="form-input" placeholder="Jawaban 5, Skor (opsional)">
+          <button type="submit" class="btn-submit-q">Simpan ke Bank Soal</button>
+        </form>
+      </details>
+    </section>
+  </div>
+
+  <script src="/js/remote.js"></script>
+</body>
+</html>

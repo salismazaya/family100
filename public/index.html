@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#070d19">
+  <title>Family 100 - Live Game Show</title>
+  <link rel="stylesheet" href="/css/board.css">
+</head>
+<body>
+  <div class="mobile-board-container">
+    <!-- Top Status Header -->
+    <header class="board-header">
+      <div class="brand-badge">
+        <span>⭐</span> FAMILY 100
+      </div>
+      <div class="status-indicator">
+        <span class="pulse-dot" id="liveDot"></span>
+        <span id="connStatus">CONNECTING</span>
+        <button id="soundBtn" class="btn-sound-toggle" title="Toggle Suara">🔊</button>
+      </div>
+    </header>
+
+    <!-- Score HUD -->
+    <section class="score-hud-grid">
+      <div class="team-box">
+        <span class="score-label">TIM A</span>
+        <div class="score-value" id="scoreTeamA">0</div>
+      </div>
+      <div class="round-point-box">
+        <span class="score-label">POIN RONDE</span>
+        <div class="score-value" id="roundPoints">0</div>
+      </div>
+      <div class="team-box">
+        <span class="score-label">TIM B</span>
+        <div class="score-value" id="scoreTeamB">0</div>
+      </div>
+    </section>
+
+    <!-- Question Banner -->
+    <section class="question-banner">
+      <div class="question-text" id="questionText">Menunggu pertanyaan dari host...</div>
+    </section>
+
+    <!-- Survey Answers Board -->
+    <section class="answers-grid" id="answersGrid">
+      <!-- Generated via JS -->
+    </section>
+
+    <!-- Strike Bar (3 X Slots) -->
+    <section class="strikes-bar">
+      <div class="strike-slot" id="strike1">✕</div>
+      <div class="strike-slot" id="strike2">✕</div>
+      <div class="strike-slot" id="strike3">✕</div>
+    </section>
+  </div>
+
+  <!-- Big Strike Flash Animation (Non-blocking HUD) -->
+  <div class="strike-flash-overlay" id="strikeOverlay"></div>
+
+  <script src="/js/sound.js"></script>
+  <script src="/js/board.js"></script>
+</body>
+</html>
