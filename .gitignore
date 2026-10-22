@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
-package-lock.json
-# keep package-lock tracked? uncomment next line to ignore lockfile
-# package-lock.json
+
+# Data (soal lokal, jangan masuk git)
+data/questions.json
 
 # Logs
 *.log
